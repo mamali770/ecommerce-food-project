@@ -56,8 +56,8 @@
                                 <li class="nav-item {{ request()->is('about') ? 'active' : '' }}">
                                     <a class="nav-link" href="{{ route('about') }}">درباره ما</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">تماس باما</a>
+                                <li class="nav-item {{ request()->is('contact') ? 'active' : '' }}">
+                                    <a class="nav-link" href="{{ route('contact') }}">تماس باما</a>
                                 </li>
                             </ul>
                             <div class="user_option">
